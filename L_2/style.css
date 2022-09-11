@@ -1,0 +1,50 @@
+body{
+    background-color: aquamarine;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    background-color: azure;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sidebar{
+    height: 100%;
+    position: fixed;
+    width: 0px;
+    top: 0;
+    left: 0;
+    background-color: bisque;
+    overflow-x: auto;
+    padding: 60px;
+    transition: 0.5s;
+}
+
+.sidebar a{
+    padding: 8px 8px 8px 30px;
+    font-size: 24px;
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar .closeBTN{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    background-color: bisque;
+    color: black;
+    font-size: 24px;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
